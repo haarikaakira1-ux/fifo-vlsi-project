@@ -1,4 +1,5 @@
+sim/*_tb
 sim/*.vcd
-sim/fifo_sim
-sim/async_fifo_sim
-*.vcd
+*.vvp
+__pycache__/
+*.pyc
