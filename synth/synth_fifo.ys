@@ -1,0 +1,5 @@
+read_verilog rtl/sync_fifo.v
+synth -top sync_fifo
+abc -g AND,OR,XOR,MUX
+write_verilog -noattr synth/sync_fifo_netlist.v
+stat
