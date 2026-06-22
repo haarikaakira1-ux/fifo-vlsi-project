@@ -1,0 +1,4 @@
+sim/*.vcd
+sim/fifo_sim
+sim/async_fifo_sim
+*.vcd
